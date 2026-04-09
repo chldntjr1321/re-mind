@@ -2,7 +2,7 @@
 
 ## 🔥 현재 진행 중
 
-- [ ] Supabase 프로젝트 생성 및 환경변수 설정
+- [ ] 로그인 / 회원가입 페이지 UI
 
 ## 📦 백엔드 (Supabase)
 
@@ -25,12 +25,11 @@
 - [x] Next.js 프로젝트 초기 세팅
 - [x] ESLint / Prettier 설정
 - [x] Husky + lint-staged 설정
+- [x] Tailwind 커스텀 토큰 설정 (Pretendard, 컬러, 타이포, 그림자)
 
 ### 진행 예정
 
 #### 환경
-
-- [ ] Tailwind 커스텀 토큰 설정
 
 #### 인증
 
