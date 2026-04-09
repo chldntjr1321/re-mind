@@ -1,26 +1,48 @@
+@import 'pretendard/dist/web/variable/pretendardvariable-dynamic-subset.css';
 @import 'tailwindcss';
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@theme {
+  /* Font */
+  --font-sans: 'Pretendard Variable', Pretendard, sans-serif;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  /* Font sizes & line heights */
+  --font-size-h1: 40px;
+  --font-size-h1--line-height: 52px;
+  --font-size-h2: 32px;
+  --font-size-h2--line-height: 42px;
+  --font-size-h3: 24px;
+  --font-size-h3--line-height: 32px;
+  --font-size-body1: 20px;
+  --font-size-body1--line-height: 25px;
+  --font-size-body2: 18px;
+  --font-size-body2--line-height: 24px;
+  --font-size-body3: 16px;
+  --font-size-body3--line-height: 22px;
+  --font-size-caption1: 14px;
+  --font-size-caption1--line-height: 18px;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+  /* Colors - Grayscale */
+  --color-gray-10: #ffffff;
+  --color-gray-20: #f9f9f9;
+  --color-gray-30: #cfcfcf;
+  --color-gray-40: #818181;
+  --color-gray-50: #515151;
+  --color-gray-60: #000000;
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  /* Colors - Brown */
+  --color-brown-10: #f5f1ee;
+  --color-brown-20: #e4d5c9;
+  --color-brown-30: #c7bbb5;
+  --color-brown-40: #542f1a;
+  --color-brown-50: #341909;
+
+  /* Colors - Accent */
+  --color-blue-50: #1877f2;
+  --color-yellow-50: #fee500;
+  --color-red-50: #b93333;
+
+  /* Shadows */
+  --shadow-1: 0 4px 4px 0 rgba(140, 140, 140, 0.25);
+  --shadow-2: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  --shadow-3: 0 16px 20px 0 rgba(48, 48, 48, 0.62);
 }
